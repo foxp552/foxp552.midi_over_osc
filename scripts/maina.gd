@@ -11,5 +11,4 @@ func _ready():
 	refr()
 
 func refr():
-	print(ipin.text,int(ptin.text))
 	oscc.connect_socket(ipin.text,int(ptin.text))

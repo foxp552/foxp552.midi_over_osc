@@ -16,14 +16,11 @@ func _ready():
 ## Connect to an OSC server. Can only send to one OSC server at a time.
 func connect_socket(new_ip = "127.0.0.1", new_port = 4646):
 	close_socket()
-	print(new_ip,new_port)
-	var err=client.connect_to_host(new_ip, new_port)
-	print(err)
+	client.connect_to_host(new_ip, new_port)
 
 func close_socket():
 	if client.is_socket_connected():
 		client.close()
-		print("succ")
 
 ## Send an OSC message over UDP.
 func prepare_message(osc_address : String, args : Array):

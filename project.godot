@@ -20,7 +20,10 @@ config/icon="res://icon_slid.svg"
 
 window/size/viewport_width=768
 window/size/viewport_height=320
-window/handheld/orientation=5
+window/size/resizable=false
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=4
 
 [editor_plugins]
 

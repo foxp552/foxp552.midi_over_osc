@@ -6,9 +6,6 @@ extends Node
 ## The client to send the OSC message with
 @export var target_client : OSCClient
 
-## The OSC address to send to
-@export var osc_address := "/example"
-
 ## Allow the OSCMessage to send messages using the OSCClient.
 @export var enabled := true
 
@@ -25,10 +22,8 @@ func _process(delta):
 	pass
 
 
-func send_message(value):
-	
+func send_message(address,value):
 	if value is Array and enabled:
-		target_client.send_message(osc_address, value)
+		target_client.send_message(address, value)
 	elif enabled:
-		target_client.send_message(osc_address, [value])
-	
+		target_client.send_message(address, [value])
