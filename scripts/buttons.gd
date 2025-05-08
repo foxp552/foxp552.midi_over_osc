@@ -15,8 +15,8 @@ func _ready():
 
 func bup(nam):
 	if oscc.client.is_socket_connected():
-		oscm.send_message("/bespoke/note",[nam,0])
+		oscm.send_message("/bespoke/note",[float(nam),0.0])
 
 func bdn(nam):
 	if oscc.client.is_socket_connected():
-		oscm.send_message("/bespoke/note",[nam,1])
+		oscm.send_message("/bespoke/note",[float(nam),127.0])

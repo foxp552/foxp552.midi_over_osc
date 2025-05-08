@@ -24,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="2.8246461"
-     inkscape:cx="53.281012"
-     inkscape:cy="118.77594"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="127.45599"
+     inkscape:cy="77.251414"
      inkscape:window-width="1920"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="svg1">
     <inkscape:grid
        id="grid1"
        units="px"
@@ -55,7 +55,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="matrix(0.65748668,0,0,0.65748668,29.939831,29.939831)">
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:#e0e0e0;stroke-width:1.74236;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect1"
@@ -63,7 +64,8 @@
        height="170"
        x="5"
        y="5"
-       ry="20.512934" />
+       ry="31.199011"
+       rx="31.199011" />
     <rect
        style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#070707;fill-opacity:1;fill-rule:evenodd;stroke:#b1b1b1;stroke-width:1.74236;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
        id="rect3"
@@ -122,29 +124,31 @@
        height="10"
        x="130"
        y="70" />
-    <circle
-       style="fill:#939393;fill-opacity:1;fill-rule:evenodd;stroke:#5d5d5d;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+    <ellipse
+       style="fill:#939393;fill-opacity:1;fill-rule:evenodd;stroke:#5d5d5d;stroke-width:2.02498;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="path13"
-       cx="17.5"
-       cy="17.5"
-       r="2.5" />
-    <circle
-       style="fill:#939393;fill-opacity:1;fill-rule:evenodd;stroke:#5d5d5d;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       cy="20"
+       cx="19.958332"
+       rx="5.0416689"
+       ry="5.0833373" />
+    <ellipse
+       style="fill:#939393;fill-opacity:1;fill-rule:evenodd;stroke:#5d5d5d;stroke-width:1.95905;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="path14"
-       cx="162.5"
-       cy="17.5"
-       r="2.5" />
+       cx="160.02821"
+       cy="19.784283"
+       rx="4.992259"
+       ry="4.804759" />
     <circle
-       style="fill:#939393;fill-opacity:1;fill-rule:evenodd;stroke:#5d5d5d;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#939393;fill-opacity:1;fill-rule:evenodd;stroke:#5d5d5d;stroke-width:1.99999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="path15"
-       cx="17.5"
-       cy="162.5"
-       r="2.5" />
+       cx="20.000002"
+       cy="160"
+       r="5.0000038" />
     <circle
-       style="fill:#939393;fill-opacity:1;fill-rule:evenodd;stroke:#5d5d5d;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:#939393;fill-opacity:1;fill-rule:evenodd;stroke:#5d5d5d;stroke-width:1.99999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        id="path16"
-       cx="162.5"
-       cy="162.5"
-       r="2.5" />
+       cx="160"
+       cy="160"
+       r="5.0000019" />
   </g>
 </svg>

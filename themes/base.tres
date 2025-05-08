@@ -1,7 +1,28 @@
-[gd_resource type="Theme" load_steps=2 format=3 uid="uid://dgj15rlfppie7"]
+[gd_resource type="Theme" load_steps=4 format=3 uid="uid://dgj15rlfppie7"]
 
-[ext_resource type="Texture2D" uid="uid://btuopts7lmycb" path="res://slider.svg" id="1_mdqyr"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_na1s8"]
+bg_color = Color(1, 1, 1, 1)
+expand_margin_top = 1.0
+expand_margin_bottom = 1.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_us8oa"]
+bg_color = Color(0.136826, 0.136826, 0.136826, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.270222, 0.270222, 0.270222, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ngm4b"]
+bg_color = Color(1, 1, 1, 1)
+expand_margin_left = 1.0
+expand_margin_right = 1.0
 
 [resource]
-VSlider/icons/grabber = ExtResource("1_mdqyr")
-VSlider/icons/grabber_highlight = ExtResource("1_mdqyr")
+HSeparator/styles/separator = SubResource("StyleBoxFlat_na1s8")
+Panel/styles/panel = SubResource("StyleBoxFlat_us8oa")
+VSeparator/styles/separator = SubResource("StyleBoxFlat_ngm4b")

@@ -22,12 +22,15 @@ window/size/viewport_width=768
 window/size/viewport_height=320
 window/size/resizable=false
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
 window/handheld/orientation=4
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godOSC/plugin.cfg")
+enabled=PackedStringArray("res://addons/MultiTouchGui/plugin.cfg", "res://addons/godOSC/plugin.cfg")
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [rendering]
 

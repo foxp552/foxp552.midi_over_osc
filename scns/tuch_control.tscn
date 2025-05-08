@@ -1,0 +1,112 @@
+[gd_scene load_steps=6 format=3 uid="uid://bcoc170vp5jgq"]
+
+[ext_resource type="Theme" uid="uid://dgj15rlfppie7" path="res://themes/base.tres" id="1_3mjiq"]
+[ext_resource type="Script" path="res://scripts/tuch_control.gd" id="1_f05sq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7it1m"]
+draw_center = false
+border_width_left = 7
+border_width_top = 7
+border_width_right = 7
+border_width_bottom = 7
+border_color = Color(0.370364, 0.370365, 0.370364, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+expand_margin_left = 3.0
+expand_margin_top = 3.0
+expand_margin_right = 3.0
+expand_margin_bottom = 3.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j03db"]
+size = Vector2(38, 38)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0a7rl"]
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="tuch_control" type="Control"]
+layout_mode = 3
+anchor_right = 0.166667
+anchor_bottom = 0.4
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme = ExtResource("1_3mjiq")
+script = ExtResource("1_f05sq")
+metadata/_edit_use_anchors_ = true
+
+[node name="p1" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="vs" type="VSeparator" parent="p1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="hs" type="HSeparator" parent="p1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="p2" type="Panel" parent="p1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_7it1m")
+
+[node name="butnch" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+
+[node name="button" type="TouchScreenButton" parent="butnch"]
+shape = SubResource("RectangleShape2D_j03db")
+
+[node name="Panel" type="Panel" parent="butnch/button"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_0a7rl")
